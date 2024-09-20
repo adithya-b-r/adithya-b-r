@@ -1,4 +1,4 @@
-# Hi there, I'm Adithya B R 👋
+# Hi there, I'm Adithya👋
 
 I'm passionate about technology and development, exploring various domains including web development, electronics, AI & ML, and cybersecurity.
 
