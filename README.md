@@ -9,6 +9,7 @@ I'm passionate about technology and development, exploring various domains inclu
 - **Web Development**:
   - 📝 ToDo List
   - 🎮 TicTacToe Game
+  - 🐾Animal MatchUp
   - 🎂 Cake Website
   - 🎉 Scientica 2024 (Website for college fest)
   - 💍 Matrimony Site (PHP & MySQL)
