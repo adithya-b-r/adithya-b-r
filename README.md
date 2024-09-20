@@ -11,7 +11,7 @@ I'm passionate about technology and development, exploring various domains inclu
   - Scientica 2024 (Website for college fest)
   - Matrimony Site (PHP & MySQL)
   - Sales and Inventory Management System (PHP & MySQL)
-  - Skills: HTML, CSS, JavaScript, Vanilla JS, PHP, MySQL, jQuery, Async
+  - Skills: HTML, CSS, JavaScript, Vanilla JS, PHP, MySQL, jQuery, MERN
 - **Electronics**:
   - IoT Device using ESP8266 and 2 Relay
   - WiFi Car using ESP32
