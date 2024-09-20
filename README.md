@@ -4,7 +4,7 @@ I'm passionate about technology and development, exploring various domains inclu
 
 ## 🛠️ Technologies & Tools
 
-- **Languages**: C, Java, Python, HTML, CSS, JavaScript, PHP, MySQL, Bash, R
+- **Languages**: C/C++, Java, Python, HTML, CSS, JavaScript, MERN, PHP, MySQL, Bash, R
   
 - **Web Development**:
   - 📝 ToDo List
