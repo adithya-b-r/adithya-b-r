@@ -31,8 +31,8 @@ I'm passionate about technology and development, exploring various domains inclu
       
 - **Linux & Cybersecurity**:
   - 🐧 Proficient in Linux and Bash scripting
-  - 🔒 Familiar with hacking techniques, including brute force, phishing pages, XSS, Burp Suite, and custom tool development
-  - 🛠️ Knowledgeable in creating automation tools for automatic testing using Selenium
+  - 🔒 Familiar with hacking techniques, including brute force, XSS, Burp Suite, and custom tool development
+  - 🛠️ Knowledgeable in creating automation tools for automatic testing using Selenium and Postman
 
 ## 🌱 Currently Learning
 - 📚 Full Stack Development
