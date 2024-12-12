@@ -4,7 +4,7 @@ I'm passionate about technology and development, exploring various domains inclu
 
 ## 🛠️ Technologies & Tools
 
-- **Languages**: C, Java, Python, HTML, CSS, Tailwind, Bootstrap JavaScript, TypeScript, MERN, Firebase, PHP, MySQL, Bash, R
+- **Languages**: C, Java, Python, HTML, CSS, Tailwind, Bootstrap JavaScript, TypeScript, MERN, ReactNative, Firebase, PHP, MySQL, Bash, R
   
 - **Web Development**:
   - 📝 ToDo List
