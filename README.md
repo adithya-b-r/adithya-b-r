@@ -4,7 +4,7 @@ I'm passionate about technology and development, exploring various domains inclu
 
 ## 🛠️ Technologies & Tools
 
-- **Languages**: C, Java, Python, HTML, CSS, Tailwind, Bootstrap, JavaScript, TypeScript, MERN, NodeJs, ReactNative, Firebase, MongoDB, MySQL, PHP, Bash, R.
+- **Languages**: C, Java, Python, HTML, CSS, Tailwind, GSAP, Motion, Bootstrap, JavaScript, TypeScript, MERN, NextJs, NodeJs, ReactNative, Firebase, MongoDB, MySQL, PHP, Bash, R.
   
 - **Web Development**:
   - 📝 ToDo List
@@ -14,7 +14,7 @@ I'm passionate about technology and development, exploring various domains inclu
   - 🎉 Scientica 2024 (Website for college fest)
   - 💍 Matrimony Site (PHP & MySQL)
   - 📊 Sales and Inventory Management System (PHP & MySQL)
-  - Skills: HTML, CSS, JavaScript, Vanilla JS, PHP, MySQL, jQuery, MERN
+  - Skills: HTML, CSS, JavaScript, Vanilla JS, PHP, MySQL, jQuery, MERN, NextJS
     
 - **Electronics**:
   - 🌐 IoT Device using ESP8266 and 2 Relay
