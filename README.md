@@ -14,6 +14,7 @@ I'm passionate about technology and development, exploring various domains inclu
   - 🎉 Scientica 2024 (Website for college fest)
   - 💍 Matrimony Site (PHP & MySQL)
   - 📊 Sales and Inventory Management System (PHP & MySQL)
+  - More...
   - Skills: HTML, CSS, JavaScript, Vanilla JS, PHP, MySQL, jQuery, MERN, NextJS
     
 - **Electronics**:
