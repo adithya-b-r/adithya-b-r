@@ -2,16 +2,16 @@
 
 <div align="center">
   
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&height=80&lines=Full+Stack+Developer+%F0%9F%9A%80;Web+%26+Mobile+App+Developer+%F0%9F%93%B1;IoT+%26+Electronics+Enthusiast+%E2%9A%A1;Linux+%26+Automation+%F0%9F%94%A5;Building+Amazing+User+Experiences+%F0%9F%8C%9F)
-
+  ![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Welcome%20to%20My%20Digital%20Universe&fontSize=35&fontColor=fff&animation=twinkling&fontAlignY=35)
+  
 </div>
 
 <br>
 
 <div align="center">
   
-  ![Profile Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Welcome%20to%20My%20Digital%20Universe&fontSize=35&fontColor=fff&animation=twinkling&fontAlignY=35)
-  
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&height=80&lines=Full+Stack+Developer+%F0%9F%9A%80;Web+%26+Mobile+App+Developer+%F0%9F%93%B1;IoT+%26+Electronics+Enthusiast+%E2%9A%A1;Linux+%26+Automation+%F0%9F%94%A5;Building+Amazing+User+Experiences+%F0%9F%8C%9F)
+
 </div>
 
 ## 🎯 **About Me**
