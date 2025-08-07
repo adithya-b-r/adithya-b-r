@@ -129,7 +129,7 @@ const adithya = {
 
 | 🚀 Project | 📝 Description | ⚡ Tech Stack | 🔗 Status |
 |------------|----------------|-------------- |-----------|
-| **📊 RAEMAS-2025** | National Conference Platform with comprehensive features: user authentication, dashboard, paper submission system, integrated payment gateway, admin panel, and 90+ SEO score | `React` `Vite` `Appwrite` `SEO Optimization` | 🟢 **Live at raemas.com** |
+| **📊 RAEMAS-2025** | National Conference Platform with comprehensive features: user authentication, dashboard, paper submission system, admin panel, and 90+ SEO score | `React` `Vite` `Appwrite` `SEO Optimization` | 🟢 **Live at raemas.com** |
 | **📃 Certificate Generator** | Admin-driven platform for generating event certificates with custom templates and secure rendering | `Next.js` `Appwrite` | 🔐 **Secure & Scalable** |
 
 </details>
