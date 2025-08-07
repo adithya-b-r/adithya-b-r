@@ -231,11 +231,11 @@ const adithya = {
 
 </div>
 
-<div align="center">
+<!-- <div align="center">
   
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=adithya-b-r&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=C9D1D9"/>
   
-</div>
+</div> -->
 
 ---
 
