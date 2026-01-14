@@ -10,7 +10,7 @@
 
 <div align="center">
   
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&height=80&lines=Full+Stack+Developer+%F0%9F%9A%80;IoT+%26+Electronics+Enthusiast+%E2%9A%A1;Building+Scalable+Solutions+%F0%9F%92%BC)
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&height=80&lines=Real+Full+Stack+Developer+%F0%9F%9A%80;IoT+%26+Electronics+Enthusiast+%E2%9A%A1;Building+Scalable+Solutions+%F0%9F%92%BC)
 
 </div>
 
