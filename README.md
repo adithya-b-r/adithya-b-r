@@ -146,7 +146,7 @@ const adithya = {
 
 | Project | Description | Technology Stack | Features |
 |---------|-------------|------------------|----------|
-| **🎬 Auro** | AI-powered video sharing platform with advanced animations | `React Native` `Appwrite` | 🎨 **Premium UI** |
+| **🎬 Aora** | AI-powered video sharing platform with advanced animations | `React Native` `Appwrite` | 🎨 **Premium UI** |
 
 </details>
 
