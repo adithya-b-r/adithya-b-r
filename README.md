@@ -427,18 +427,18 @@ Web | Mobile | Automation
 
 ```javascript
 const quickFacts = {
-    🎓 education: "Computer Science & Engineering",
-    📍 location: "Mangalore, Karnataka, India",
-    💼 experience: "Full Stack Development + IoT",
-    🌱 currentlyLearning: ["Advanced React Patterns", "Cloud Architecture", "ML Integration"],
-    🎯 2024Goals: [
-        "Contribute to major open-source projects",
+    education: "🎓 Computer Science & Engineering",
+    location: "📍 Mangalore, Karnataka, India",
+    experience: "💼 Full Stack Development + IoT",
+    currentlyLearning: ["🌱 Advanced React Patterns", "Cloud Architecture", "ML Integration"],
+    goals2024: [
+        "🎯 Contribute to major open-source projects",
         "Build AI-powered applications",
         "Master cloud-native architecture",
         "Share knowledge through technical blogs"
     ],
-    ⚡ funFact: "I can debug hardware and software issues equally well!",
-    🎮 hobbies: ["Coding", "IoT Tinkering", "Tech Writing", "Problem Solving"]
+    funFact: "⚡ I can debug hardware and software issues equally well!",
+    hobbies: ["🎮 Coding", "IoT Tinkering", "Tech Writing", "Problem Solving"]
 };
 ```
 
@@ -462,13 +462,13 @@ Coming Soon! Follow me to stay updated with my technical articles and project in
 
 <div align="center">
 
-> *"Working with Adithya on the RAEMAS-2025 project was exceptional. His attention to detail and full-stack expertise delivered a robust conference management platform."*
+> *"Working with Adithya on the **RAEMAS-2025 Conference Platform** (June 2024) was exceptional. His attention to detail and full-stack expertise delivered a robust conference management platform with seamless authentication and admin functionality."*
 > 
-> **— Project Stakeholder**
+> **— Project Lead, RAEMAS-2025**
 
-> *"Innovative IoT solutions with clean code implementation. The ESP32 projects demonstrate deep understanding of both hardware and software."*
+> *"Innovative IoT solutions with clean code implementation. The **ESP32 OLED GUI** and **IoT Controller** projects demonstrate deep understanding of both hardware and software integration."*
 > 
-> **— Technical Reviewer**
+> **— Technical Mentor, IoT Projects Portfolio Review**
 
 </div>
 
