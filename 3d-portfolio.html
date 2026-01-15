@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adithya B R - 3D Interactive Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0D1117 0%, #1a1e2e 50%, #0D1117 100%);
+            color: #C9D1D9;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(59, 130, 246, 0.05);
+            border-radius: 15px;
+            margin-bottom: 40px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 3.5em;
+            background: linear-gradient(135deg, #3B82F6 0%, #60A5FA 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                filter: drop-shadow(0 0 20px rgba(59, 130, 246, 0.5));
+            }
+            to {
+                filter: drop-shadow(0 0 40px rgba(59, 130, 246, 0.8));
+            }
+        }
+
+        .subtitle {
+            font-size: 1.5em;
+            color: #8B949E;
+            margin-bottom: 30px;
+        }
+
+        #canvas-container {
+            width: 100%;
+            height: 600px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            margin: 40px 0;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(59, 130, 246, 0.3);
+        }
+
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(59, 130, 246, 0.6);
+        }
+
+        .info-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .card {
+            background: rgba(59, 130, 246, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+            background: rgba(59, 130, 246, 0.15);
+        }
+
+        .card h3 {
+            color: #3B82F6;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .card p {
+            line-height: 1.6;
+            color: #8B949E;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+            border-top: 1px solid rgba(59, 130, 246, 0.2);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: #3B82F6;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #60A5FA;
+            transform: scale(1.1);
+        }
+
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.5em;
+            color: #3B82F6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Adithya B R</h1>
+            <p class="subtitle">Interactive 3D Portfolio Experience</p>
+            <p>Full Stack Developer | IoT Engineer | 3D Web Specialist</p>
+        </header>
+
+        <div id="canvas-container">
+            <canvas id="canvas"></canvas>
+            <div id="loading">Loading 3D Scene...</div>
+        </div>
+
+        <div class="controls">
+            <button class="btn" onclick="changeScene('cube')">🎲 Cube</button>
+            <button class="btn" onclick="changeScene('sphere')">🌐 Sphere</button>
+            <button class="btn" onclick="changeScene('torus')">🍩 Torus</button>
+            <button class="btn" onclick="changeScene('helix')">🌀 Helix</button>
+            <button class="btn" onclick="toggleAnimation()">⏯️ Toggle Animation</button>
+        </div>
+
+        <div class="info-cards">
+            <div class="card">
+                <h3>🎨 3D Technologies</h3>
+                <p>Expertise in Three.js, WebGL, and advanced 3D rendering techniques. Creating immersive web experiences with cutting-edge graphics.</p>
+            </div>
+            <div class="card">
+                <h3>⚡ Performance</h3>
+                <p>Optimized 3D scenes running at 60 FPS with efficient memory management and rendering pipelines.</p>
+            </div>
+            <div class="card">
+                <h3>🌟 Interactive Design</h3>
+                <p>User-centric 3D interfaces with smooth animations, particle systems, and real-time interactivity.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Adithya B R. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/adithya-b-r" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/adithya-br/" target="_blank">LinkedIn</a>
+                <a href="mailto:bradithya614@gmail.com">Email</a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Pure JavaScript 3D Canvas implementation
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const loading = document.getElementById('loading');
+
+        let width, height, centerX, centerY;
+        let time = 0;
+        let isAnimating = true;
+        let currentScene = 'cube';
+
+        function resizeCanvas() {
+            const container = document.getElementById('canvas-container');
+            width = canvas.width = container.clientWidth;
+            height = canvas.height = container.clientHeight;
+            centerX = width / 2;
+            centerY = height / 2;
+        }
+
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+
+        // 3D projection
+        function project(x, y, z) {
+            const scale = 400 / (400 + z);
+            return {
+                x: centerX + x * scale,
+                y: centerY + y * scale,
+                scale: scale
+            };
+        }
+
+        // Rotation matrices
+        function rotateX(x, y, z, angle) {
+            const cos = Math.cos(angle);
+            const sin = Math.sin(angle);
+            return { x: x, y: y * cos - z * sin, z: y * sin + z * cos };
+        }
+
+        function rotateY(x, y, z, angle) {
+            const cos = Math.cos(angle);
+            const sin = Math.sin(angle);
+            return { x: x * cos + z * sin, y: y, z: -x * sin + z * cos };
+        }
+
+        function rotateZ(x, y, z, angle) {
+            const cos = Math.cos(angle);
+            const sin = Math.sin(angle);
+            return { x: x * cos - y * sin, y: x * sin + y * cos, z: z };
+        }
+
+        // Draw 3D cube
+        function drawCube() {
+            const size = 100;
+            const vertices = [
+                [-size, -size, -size], [size, -size, -size], [size, size, -size], [-size, size, -size],
+                [-size, -size, size], [size, -size, size], [size, size, size], [-size, size, size]
+            ];
+
+            const edges = [
+                [0,1],[1,2],[2,3],[3,0],[4,5],[5,6],[6,7],[7,4],[0,4],[1,5],[2,6],[3,7]
+            ];
+
+            const rotated = vertices.map(v => {
+                let p = { x: v[0], y: v[1], z: v[2] };
+                p = rotateX(p.x, p.y, p.z, time * 0.5);
+                p = rotateY(p.x, p.y, p.z, time * 0.7);
+                p = rotateZ(p.x, p.y, p.z, time * 0.3);
+                return project(p.x, p.y, p.z);
+            });
+
+            ctx.strokeStyle = '#3B82F6';
+            ctx.lineWidth = 2;
+            edges.forEach(edge => {
+                ctx.beginPath();
+                ctx.moveTo(rotated[edge[0]].x, rotated[edge[0]].y);
+                ctx.lineTo(rotated[edge[1]].x, rotated[edge[1]].y);
+                ctx.stroke();
+            });
+
+            // Draw vertices
+            ctx.fillStyle = '#60A5FA';
+            rotated.forEach(p => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
+                ctx.fill();
+            });
+        }
+
+        // Draw 3D sphere
+        function drawSphere() {
+            const radius = 120;
+            const rings = 20;
+            const segments = 30;
+
+            for (let i = 0; i <= rings; i++) {
+                const theta = (i / rings) * Math.PI;
+                for (let j = 0; j <= segments; j++) {
+                    const phi = (j / segments) * Math.PI * 2;
+                    
+                    const x = radius * Math.sin(theta) * Math.cos(phi);
+                    const y = radius * Math.sin(theta) * Math.sin(phi);
+                    const z = radius * Math.cos(theta);
+
+                    let p = { x, y, z };
+                    p = rotateY(p.x, p.y, p.z, time * 0.5);
+                    p = rotateX(p.x, p.y, p.z, time * 0.3);
+
+                    const projected = project(p.x, p.y, p.z);
+                    
+                    const brightness = Math.floor((p.z + radius) / (radius * 2) * 255);
+                    ctx.fillStyle = `rgb(${brightness * 0.2}, ${brightness * 0.5}, ${brightness})`;
+                    ctx.beginPath();
+                    ctx.arc(projected.x, projected.y, 2 * projected.scale, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+            }
+        }
+
+        // Draw 3D torus
+        function drawTorus() {
+            const majorRadius = 100;
+            const minorRadius = 40;
+            const segments = 40;
+            const tubes = 30;
+
+            for (let i = 0; i < segments; i++) {
+                const theta = (i / segments) * Math.PI * 2;
+                for (let j = 0; j < tubes; j++) {
+                    const phi = (j / tubes) * Math.PI * 2;
+                    
+                    const x = (majorRadius + minorRadius * Math.cos(phi)) * Math.cos(theta);
+                    const y = (majorRadius + minorRadius * Math.cos(phi)) * Math.sin(theta);
+                    const z = minorRadius * Math.sin(phi);
+
+                    let p = { x, y, z };
+                    p = rotateX(p.x, p.y, p.z, time * 0.4);
+                    p = rotateY(p.x, p.y, p.z, time * 0.6);
+
+                    const projected = project(p.x, p.y, p.z);
+                    
+                    const hue = (i / segments) * 360;
+                    ctx.fillStyle = `hsl(${hue}, 80%, 60%)`;
+                    ctx.beginPath();
+                    ctx.arc(projected.x, projected.y, 3 * projected.scale, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+            }
+        }
+
+        // Draw 3D helix
+        function drawHelix() {
+            const points = 500;
+            const radius = 80;
+            const height = 300;
+
+            for (let i = 0; i < points; i++) {
+                const t = (i / points) * Math.PI * 8;
+                const x = radius * Math.cos(t);
+                const y = (i / points) * height - height / 2;
+                const z = radius * Math.sin(t);
+
+                let p = { x, y, z };
+                p = rotateX(p.x, p.y, p.z, time * 0.3);
+                p = rotateY(p.x, p.y, p.z, time * 0.5);
+
+                const projected = project(p.x, p.y, p.z);
+                
+                const progress = i / points;
+                ctx.fillStyle = `hsl(${progress * 360 + time * 50}, 80%, 60%)`;
+                ctx.beginPath();
+                ctx.arc(projected.x, projected.y, 4 * projected.scale, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        // Main animation loop
+        function animate() {
+            ctx.fillStyle = 'rgba(13, 17, 23, 0.2)';
+            ctx.fillRect(0, 0, width, height);
+
+            // Draw background particles
+            ctx.fillStyle = 'rgba(59, 130, 246, 0.1)';
+            for (let i = 0; i < 50; i++) {
+                const x = (Math.sin(time * 0.1 + i) * width / 2) + centerX;
+                const y = (Math.cos(time * 0.15 + i) * height / 2) + centerY;
+                ctx.beginPath();
+                ctx.arc(x, y, 2, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            // Draw current scene
+            switch(currentScene) {
+                case 'cube': drawCube(); break;
+                case 'sphere': drawSphere(); break;
+                case 'torus': drawTorus(); break;
+                case 'helix': drawHelix(); break;
+            }
+
+            if (isAnimating) {
+                time += 0.01;
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        function changeScene(scene) {
+            currentScene = scene;
+        }
+
+        function toggleAnimation() {
+            isAnimating = !isAnimating;
+        }
+
+        // Start animation
+        setTimeout(() => {
+            loading.style.display = 'none';
+            animate();
+        }, 500);
+    </script>
+</body>
+</html>

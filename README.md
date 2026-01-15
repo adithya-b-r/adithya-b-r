@@ -12,6 +12,12 @@
   
 </div>
 
+<div align="center">
+  
+  ### 🌟 [**View Interactive 3D Portfolio Experience**](https://adithya-b-r.github.io/adithya-b-r/3d-portfolio.html) 🌟
+  
+</div>
+
 <br>
 
 <div align="center">
@@ -134,6 +140,22 @@ const adithya = {
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Canvas](https://img.shields.io/badge/Canvas-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+<br>
+
+<div align="center">
+  
+  <img src="https://user-images.githubusercontent.com/74038190/212749695-a6817c5a-a794-462b-afca-1b5ce7dd5e63.gif" width="400">
+  
+  ### 🎨 **3D & Animation Showcase**
+  
+  [![Interactive 3D Portfolio](https://img.shields.io/badge/🌐_Interactive_3D_Portfolio-View_Live-3B82F6?style=for-the-badge)](https://adithya-b-r.github.io/adithya-b-r/3d-portfolio.html)
+  
+  *Experience real-time 3D graphics with pure JavaScript - No external libraries needed!*
+  
+</div>
+
+<br>
 
 ### **⚡ Backend & Databases**
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
