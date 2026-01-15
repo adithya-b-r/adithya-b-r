@@ -205,7 +205,7 @@
         </div>
 
         <footer>
-            <p>&copy; 2026 Adithya B R. All rights reserved.</p>
+            <p>&copy; 2025 Adithya B R. All rights reserved.</p>
             <div class="social-links">
                 <a href="https://github.com/adithya-b-r" target="_blank">GitHub</a>
                 <a href="https://www.linkedin.com/in/adithya-br/" target="_blank">LinkedIn</a>
@@ -224,6 +224,10 @@
         let time = 0;
         let isAnimating = true;
         let currentScene = 'cube';
+        
+        // Constants
+        const PROJECTION_DISTANCE = 400;
+        const BACKGROUND_COLOR = 'rgba(13, 17, 23, 0.2)';
 
         function resizeCanvas() {
             const container = document.getElementById('canvas-container');
@@ -238,7 +242,7 @@
 
         // 3D projection
         function project(x, y, z) {
-            const scale = 400 / (400 + z);
+            const scale = PROJECTION_DISTANCE / (PROJECTION_DISTANCE + z);
             return {
                 x: centerX + x * scale,
                 y: centerY + y * scale,
@@ -392,7 +396,7 @@
 
         // Main animation loop
         function animate() {
-            ctx.fillStyle = 'rgba(13, 17, 23, 0.2)';
+            ctx.fillStyle = BACKGROUND_COLOR;
             ctx.fillRect(0, 0, width, height);
 
             // Draw background particles
