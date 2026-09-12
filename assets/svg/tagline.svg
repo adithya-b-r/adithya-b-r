@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 32" width="440" height="32" fill="none">
+  <defs>
+    <linearGradient id="taglineGrad" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="25%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="75%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <linearGradient id="taglineSweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="70%" stop-color="#c084fc" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="tagGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#38bdf8" flood-opacity="0.45"/>
+    </filter>
+
+    <clipPath id="tagTextClip">
+      <text x="50%" y="22"
+            text-anchor="middle"
+            font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, Menlo, Monaco, monospace"
+            font-size="16"
+            font-weight="700"
+            letter-spacing="0.4">
+        Builder by nature, Coder by profession
+      </text>
+    </clipPath>
+  </defs>
+
+  <g class="glow-wrap">
+    <text x="50%" y="22"
+          text-anchor="middle"
+          font-family="'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, Menlo, Monaco, monospace"
+          font-size="16"
+          font-weight="700"
+          letter-spacing="0.4"
+          fill="url(#taglineGrad)"
+          filter="url(#tagGlow)">
+      Builder by nature, Coder by profession
+    </text>
+  </g>
+
+  <g clip-path="url(#tagTextClip)" pointer-events="none">
+    <rect class="grad-flow" x="-220" y="0" width="880" height="32" fill="url(#taglineGrad)"/>
+    <rect class="tag-sweep" x="0" y="0" width="100" height="32" fill="url(#taglineSweep)"/>
+  </g>
+
+  <style>
+    .glow-wrap {
+      animation: pulseGlow 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulseGlow {
+      0% { opacity: 0.75; }
+      100% { opacity: 1; }
+    }
+
+    .grad-flow {
+      animation: flowGrad 6s linear infinite;
+    }
+
+    @keyframes flowGrad {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-440px); }
+    }
+
+    .tag-sweep {
+      animation: tagSweep 4.5s ease-in-out infinite;
+    }
+
+    @keyframes tagSweep {
+      0% {
+        transform: translateX(-120px) skewX(-20deg);
+        opacity: 0;
+      }
+      6% {
+        opacity: 1;
+      }
+      65% {
+        transform: translateX(480px) skewX(-20deg);
+        opacity: 1;
+      }
+      72%, 99.9% {
+        transform: translateX(480px) skewX(-20deg);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(-120px) skewX(-20deg);
+        opacity: 0;
+      }
+    }
+  </style>
+</svg>
