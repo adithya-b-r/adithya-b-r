@@ -45,7 +45,7 @@
 
 </div>
 
-## <img src="https://cdn.simpleicons.org/countingworkspro/C084FC" width="24" height="24" align="middle" valign="middle" /> <span style="color: #c084fc;">Let's Connect</span>
+## <img src="https://cdn.simpleicons.org/countingworkspro/38BDF8" width="24" height="24" align="middle" valign="middle" /> <span style="color: #38bdf8;">Let's Connect</span>
 
 <div align="center">
 
