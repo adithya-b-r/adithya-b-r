@@ -78,7 +78,7 @@
 ---
 
 <h3 align="center">
-  <img src="https://cdn.simpleicons.org/planetscale/38BDF8" width="22" height="22" align="middle" valign="middle" />
+  <img src="./assets/gifs/builder.gif" width="32" height="32" align="middle" valign="middle" />
   &nbsp;Builder by nature, Coder by profession&nbsp;
-  <img src="https://cdn.simpleicons.org/planetscale/38BDF8" width="22" height="22" align="middle" valign="middle" />
+  <img src="./assets/gifs/coder.gif" width="32" height="32" align="middle" valign="middle" />
 </h3>
