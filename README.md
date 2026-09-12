@@ -51,7 +51,7 @@
 
 ---
 
-## <img src="https://cdn.simpleicons.org/countingworkspro/C084FC" width="24" height="24" align="middle" valign="middle" /> <span style="color: #c084fc;">Professional Network</span>
+## <img src="https://cdn.simpleicons.org/countingworkspro/C084FC" width="24" height="24" align="middle" valign="middle" /> <span style="color: #c084fc;">Let's Connect</span>
 
 <div align="center">
 
