@@ -1,4 +1,4 @@
-# <img src="https://cdn.simpleicons.org/gnubash/38BDF8" width="26" height="26" align="center" /> <span style="color: #38bdf8;">Adithya B R</span>
+# <img src="https://cdn.simpleicons.org/gnubash/38BDF8" width="30" height="30" align="middle" valign="middle" /> <span style="color: #38bdf8;">Adithya B R</span>
 
 <div align="center">
 
@@ -12,7 +12,7 @@
 
 ---
 
-## <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="24" height="24" align="center" /> <span style="color: #ffa116;">LeetCode</span>
+## <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="24" height="24" align="middle" valign="middle" /> <span style="color: #ffa116;">LeetCode</span>
 
 <div align="center">
 
@@ -41,7 +41,7 @@
 
 ---
 
-## <img src="https://cdn.simpleicons.org/github/38BDF8" width="24" height="24" align="center" /> <span style="color: #38bdf8;">GitHub Analytics</span>
+## <img src="https://cdn.simpleicons.org/github/38BDF8" width="24" height="24" align="middle" valign="middle" /> <span style="color: #38bdf8;">GitHub Analytics</span>
 
 <div align="center">
 
@@ -51,7 +51,7 @@
 
 ---
 
-## <img src="https://cdn.simpleicons.org/countingworkspro/C084FC" width="24" height="24" align="center" /> <span style="color: #c084fc;">Professional Network</span>
+## <img src="https://cdn.simpleicons.org/countingworkspro/C084FC" width="24" height="24" align="middle" valign="middle" /> <span style="color: #c084fc;">Professional Network</span>
 
 <div align="center">
 
@@ -78,7 +78,7 @@
 ---
 
 <h3 align="center">
-  <img src="https://cdn.simpleicons.org/planetscale/38BDF8" width="22" height="22" valign="middle" />
+  <img src="https://cdn.simpleicons.org/planetscale/38BDF8" width="22" height="22" align="middle" valign="middle" />
   &nbsp;Builder by nature, Coder by profession&nbsp;
-  <img src="https://cdn.simpleicons.org/planetscale/38BDF8" width="22" height="22" valign="middle" />
+  <img src="https://cdn.simpleicons.org/planetscale/38BDF8" width="22" height="22" align="middle" valign="middle" />
 </h3>
