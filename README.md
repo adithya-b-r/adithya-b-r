@@ -77,8 +77,8 @@
 
 ---
 
-<div align="center" justify-content: "center" align-items="center">
-
-<img src="https://cdn.simpleicons.org/planetscale/38BDF8" width="24" height="24" align="center" /> <span style="font-size: 20px;">**Builder by nature, Coder by profession**</span> <img src="https://cdn.simpleicons.org/planetscale/38BDF8" width="24" height="24" align="center" />
-
-</div>
+<h3 align="center">
+  <img src="https://cdn.simpleicons.org/planetscale/38BDF8" width="22" height="22" valign="middle" />
+  &nbsp;Builder by nature, Coder by profession&nbsp;
+  <img src="https://cdn.simpleicons.org/planetscale/38BDF8" width="22" height="22" valign="middle" />
+</h3>
