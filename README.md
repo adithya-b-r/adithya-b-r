@@ -69,6 +69,6 @@
 
 <h3 align="center">
   <img src="./assets/gifs/builder.gif" width="32" height="32" align="middle" valign="middle" />
-  &nbsp;Builder by nature, Coder by profession&nbsp;
+  &nbsp;<img src="./assets/svg/tagline.svg" height="28" align="middle" valign="middle" alt="Builder by nature, Coder by profession" />&nbsp;
   <img src="./assets/gifs/coder.gif" width="32" height="32" align="middle" valign="middle" />
 </h3>
