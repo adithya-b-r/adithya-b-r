@@ -10,8 +10,6 @@
 
 </div>
 
----
-
 ## <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="24" height="24" align="middle" valign="middle" /> <span style="color: #ffa116;">LeetCode</span>
 
 <div align="center">
@@ -39,8 +37,6 @@
 
 </div>
 
----
-
 ## <img src="https://cdn.simpleicons.org/github/38BDF8" width="24" height="24" align="middle" valign="middle" /> <span style="color: #38bdf8;">GitHub Analytics</span>
 
 <div align="center">
@@ -48,8 +44,6 @@
 <img src="https://streak-stats.demolab.com/?user=adithya-b-r&theme=cobalt&hide_border=true&background=0D1117&stroke=3B82F6&ring=3B82F6&fire=60A5FA&currStreakLabel=C9D1D9">
 
 </div>
-
----
 
 ## <img src="https://cdn.simpleicons.org/countingworkspro/C084FC" width="24" height="24" align="middle" valign="middle" /> <span style="color: #c084fc;">Let's Connect</span>
 
@@ -68,14 +62,10 @@
 
 </div>
 
----
-
 <div align="center">
 
 <img src="./assets/gifs/chill.gif" alt="Profile Banner" width="100%">
 </div>
-
----
 
 <h3 align="center">
   <img src="./assets/gifs/builder.gif" width="32" height="32" align="middle" valign="middle" />
