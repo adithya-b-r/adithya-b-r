@@ -15,7 +15,7 @@
 <div align="center">
 
 <a href="https://leetcode.com/u/adithya_b_r/">
-  <img src="./assets/png/leetcode.png" alt="LeetCode Stats" width="100%">
+  <img src="./assets/png/leetcode3.png" alt="LeetCode Stats" width="100%">
 </a>
 
 </div>
