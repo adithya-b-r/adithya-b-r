@@ -23,10 +23,10 @@
 <div align="center">
 
 <a href="https://leetcode.com/u/adithya_b_r/">
-  <img src="./assets/gifs/365_new.gif" width="150" alt="LeetCode 365 Days Badge">
+  <img src="./assets/gifs/2026.gif" width="150" alt="LeetCode 50 Days Badge">
 </a>
 <a href="https://leetcode.com/u/adithya_b_r/">
-  <img src="./assets/gifs/2026.gif" width="150" alt="LeetCode 50 Days Badge">
+  <img src="./assets/gifs/365_new.gif" width="150" alt="LeetCode 365 Days Badge">
 </a>
 <a href="https://leetcode.com/u/adithya_b_r/">
   <img src="./assets/gifs/2026_200.gif" width="150" alt="LeetCode 200 Days Badge">
